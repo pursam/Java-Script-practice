@@ -1,15 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <script src="main.js"></script>
+  <h1 class="header">My JS Homework #5</h1>
+  <div class="carousel">
+
+    <ul class="slides">
+      <li class="slides__item active"><a href="#"></a></li>
+      <li class="slides__item"><a href="#"></a></li>
+      <li class="slides__item"><a href="#"></a></li>
+      <li class="slides__item"><a href="#"></a></li>
+      <li class="slides__item"><a href="#"></a></li>
+    </ul>
+
+    <div class="indicators">
+      <span class="indicators__item active" data-slide-to="0"></span>
+      <span class="indicators__item" data-slide-to="1"></span>
+      <span class="indicators__item" data-slide-to="2"></span>
+      <span class="indicators__item" data-slide-to="3"></span>
+      <span class="indicators__item" data-slide-to="4"></span>
+    </div>
+
+    <div class="controls">
+      <div class="controls__item controls__prev"><i class="fas fa-chevron-left"></i></div>
+      <div class="controls__item controls__next"><i class="fas fa-chevron-right"></i></div>
+      <div class="controls__item controls__pause"><i class="fas fa-play"></i></div>
+    </div>
+
+    <style>
+      .carousel {
+        background-color: gray;
+        margin: 1em;
+      }
+
+      .slides {}
+
+      .slides__item {}
+
+      .active {}
+
+      .indicators {}
+
+      .indicators__item {}
+
+      .controls {}
+
+      .controls__item {}
+
+      .controls__prev {}
+
+      .fas {}
+
+      .fa-chevron-left {}
+
+      .controls__next {}
+
+      .fa-chevron-right {}
+
+      .controls__pause {}
+
+      .fa-play {}
+    </style>
+  </div>
+
+  <p class="copy">&copy;Kozichev_Vladislav</p>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
